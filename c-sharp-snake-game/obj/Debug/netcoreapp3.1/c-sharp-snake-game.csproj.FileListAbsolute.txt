@@ -1,0 +1,13 @@
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\bin\Debug\netcoreapp3.1\c-sharp-snake-game.exe
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\bin\Debug\netcoreapp3.1\c-sharp-snake-game.deps.json
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\bin\Debug\netcoreapp3.1\c-sharp-snake-game.runtimeconfig.json
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\bin\Debug\netcoreapp3.1\c-sharp-snake-game.runtimeconfig.dev.json
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\bin\Debug\netcoreapp3.1\c-sharp-snake-game.dll
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\bin\Debug\netcoreapp3.1\c-sharp-snake-game.pdb
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\obj\Debug\netcoreapp3.1\c-sharp-snake-game.csprojAssemblyReference.cache
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\obj\Debug\netcoreapp3.1\c-sharp-snake-game.csproj.CoreCompileInputs.cache
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\obj\Debug\netcoreapp3.1\c-sharp-snake-game.AssemblyInfoInputs.cache
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\obj\Debug\netcoreapp3.1\c-sharp-snake-game.AssemblyInfo.cs
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\obj\Debug\netcoreapp3.1\c-sharp-snake-game.dll
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\obj\Debug\netcoreapp3.1\c-sharp-snake-game.pdb
+C:\Users\mszno\Source\Repos\msznober\c-sharp-snake-game\c-sharp-snake-game\obj\Debug\netcoreapp3.1\c-sharp-snake-game.genruntimeconfig.cache
