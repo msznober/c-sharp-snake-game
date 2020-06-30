@@ -6,6 +6,9 @@ namespace c_sharp_snake_game
     {
         static void Main(string[] args)
         {
+            //Wyłączenie widoczności kursora
+            Console.CursorVisible = false;
+
             bool exit = false;
 
             //Ilość klatek na sekundę
@@ -13,6 +16,9 @@ namespace c_sharp_snake_game
 
             //Sprawdzenie obecnej daty i czasu
             DateTime lastDate = DateTime.Now;
+
+            //Wydrukowanie pokarmu w konsoli
+            Food food = new Food();
 
             //Pętla gry, działnie węża
             while(!exit)
