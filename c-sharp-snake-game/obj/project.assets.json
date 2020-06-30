@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mszno\\source\\repos\\c-sharp-snake-game\\c-sharp-snake-game\\c-sharp-snake-game.csproj",
+      "projectUniqueName": "C:\\Users\\mszno\\Source\\Repos\\msznober\\c-sharp-snake-game\\c-sharp-snake-game\\c-sharp-snake-game.csproj",
       "projectName": "c-sharp-snake-game",
-      "projectPath": "C:\\Users\\mszno\\source\\repos\\c-sharp-snake-game\\c-sharp-snake-game\\c-sharp-snake-game.csproj",
+      "projectPath": "C:\\Users\\mszno\\Source\\Repos\\msznober\\c-sharp-snake-game\\c-sharp-snake-game\\c-sharp-snake-game.csproj",
       "packagesPath": "C:\\Users\\mszno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mszno\\source\\repos\\c-sharp-snake-game\\c-sharp-snake-game\\obj\\",
+      "outputPath": "C:\\Users\\mszno\\Source\\Repos\\msznober\\c-sharp-snake-game\\c-sharp-snake-game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mszno\\AppData\\Roaming\\NuGet\\NuGet.Config",
