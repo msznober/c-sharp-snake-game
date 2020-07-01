@@ -20,6 +20,9 @@ namespace c_sharp_snake_game
             //Wydrukowanie pokarmu w konsoli
             Food food = new Food();
 
+            //Wąż
+            Snake snake = new Snake();
+
             //Pętla gry, działnie węża
             while(!exit)
             {
@@ -35,19 +38,19 @@ namespace c_sharp_snake_game
                             break;
 
                         case ConsoleKey.LeftArrow:
-                            //x
+                            snake.Directions = Directions.Left;
                             break;
 
                         case ConsoleKey.RightArrow:
-                            //x
+                            snake.Directions = Directions.Right;
                             break;
 
                         case ConsoleKey.UpArrow:
-                            //x
+                            snake.Directions = Directions.Up;
                             break;
 
                         case ConsoleKey.DownArrow:
-                            //x
+                            snake.Directions = Directions.Down;
                             break;
                     }
 
@@ -56,6 +59,7 @@ namespace c_sharp_snake_game
                 if((DateTime.Now - lastDate).TotalMilliseconds >= framesPerSecond)
                 {
                     //akcja gry
+                    snake.Move();
                     lastDate = DateTime.Now;
                 }
 
