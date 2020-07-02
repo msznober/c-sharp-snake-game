@@ -58,9 +58,26 @@ namespace c_sharp_snake_game
 
                 if((DateTime.Now - lastDate).TotalMilliseconds >= framesPerSecond)
                 {
+                    lastDate = DateTime.Now;
+
                     //akcja gry
                     snake.Move();
-                    lastDate = DateTime.Now;
+
+                    if (food.CurrentMeal.X == snake.HeadPosition.X && food.CurrentMeal.Y == snake.HeadPosition.Y)
+                    {
+                        snake.EatFood();
+                        food = new Food();
+                        framesPerSecond /= 1.2;
+                    }
+
+                    //Przerwanie gry
+                    if (snake.gameOver)
+                    {
+                        Console.Clear();
+                        Console.WriteLine($"Przegrałeś. Długość twojego węża to: {snake.Length} ");
+                        exit = true;
+                        Console.ReadLine();
+                    }
                 }
 
             }

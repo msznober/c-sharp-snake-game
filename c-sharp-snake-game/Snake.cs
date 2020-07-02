@@ -18,7 +18,7 @@ namespace c_sharp_snake_game
         bool outOfRange = false;
 
         //Zakończenie gry - przegrana
-        bool gameOver
+        public bool gameOver
         {
             //Czy któraś współrzędna ogona pokrywa się z głową - zderzenie
             get
@@ -56,6 +56,18 @@ namespace c_sharp_snake_game
                 Console.SetCursorPosition(HeadPosition.X, HeadPosition.Y);
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.Write("@");
+
+                //Ograniczenie długości węża
+                snakeTail.Add(new gridReference(HeadPosition.X, HeadPosition.Y));
+                if(snakeTail.Count > this.Length)
+                {
+                    var endTail = snakeTail.First();
+                    Console.SetCursorPosition(endTail.X, endTail.Y);
+                    Console.Write(" ");
+                    snakeTail.Remove(endTail);
+                }
+
+
             }
             catch (ArgumentOutOfRangeException)
             {
